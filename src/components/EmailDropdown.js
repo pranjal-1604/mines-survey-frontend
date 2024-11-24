@@ -50,23 +50,3 @@ const EmailDropdown = ({ value, onChange }) => {
 };
 
 export default EmailDropdown;
-
-{
-  /* <InputLabel htmlFor="oralTest" sx={{ mb: 1 }}>
-                Oral Test (F.M. 50) <span style={{ color: "red" }}>*</span>
-              </InputLabel>
-              <FormControl fullWidth margin="normal" variant="outlined">
-                <Select
-                  name="oralTest"
-                  value={formData.oralTest}
-                  onChange={handleChange}
-                  required
-                >
-                  {createNumericOptions(50).map((num) => (
-                    <MenuItem key={num} value={num}>
-                      {num}
-                    </MenuItem>
-                  ))}
-                </Select>
-              </FormControl> */
-}
